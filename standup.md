@@ -2,6 +2,8 @@
 
 ## **Current Time** ## 
 
+10:26 a.m. on 10/6/21
+
 ## **What am I working on today?** ## 
 
 1. Styling my meeting minutes from lab2 using CSS and making sure I use everything on the checklist:
