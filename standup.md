@@ -4,7 +4,7 @@
 
 ## **What am I working on today?** ## 
 
-- Styling my meeting minutes from lab2 using CSS and making sure I use everything on the checklist:
+1. Styling my meeting minutes from lab2 using CSS and making sure I use everything on the checklist:
 - [] inline css
 - [] extermal css sheet
 - [] comment
@@ -21,9 +21,9 @@
 - [] responsiveness
 - [] fonts
 - [] selectors
-- 
-- Hosting it on yekatya.github.io/fa21-cse110-lab3 and making sure the url works
-- Maybe implement CSS transformations and CSS transitions
+
+2. Hosting it on yekatya.github.io/fa21-cse110-lab3 and making sure the url works
+3. Maybe implement CSS transformations and CSS transitions
 
 ## **What are my goals for today?** ## 
 
