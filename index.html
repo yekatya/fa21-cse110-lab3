@@ -2,9 +2,12 @@
 <html lang=”en”>
 
 <head>
-    <meta name="viewport" content="width=device-width" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title> Yekaterina's Meeting Notes </title>
-    <link href="/favicon.ico" rel="icon" type="image/x-icon" />
+    <link rel="stylesheet" href="mystyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -89,10 +92,11 @@
             </fieldset>
         </form>
 
-        <h2> Attendance </h2>
-        <hr>
+<section class="container1"> 
         <section> <a name="attendance"></a>
-            <p> <b> Present </b></p>
+            <h2> Attendance </h2>
+        <hr>
+            <h3> <b> Present </b></h3>
             <ul>
                 <li>Zendaya</li>
                 <li>Lalisa</li>
@@ -102,8 +106,7 @@
                 <li>Emile Durkheim</li>
                 <li>Yekaterina Ruslanovna Kostina</li>
             </ul>
-
-            <p> <b> Could not attend </b> </p>
+            <h3> <b> Could not attend </b> </h3>
             <ul>
                 <li> Rihanna</li>
                 <li> Olivia Rodrigo</li>
@@ -112,9 +115,9 @@
             </ul>
         </section>
 
-        <h2>Agenda </h2>
-        <hr>
         <section> <a name="agenda"></a>
+            <h2>Agenda </h2>
+        <hr>
             <ol>
                 <li> Take attendance</li>
                 <li> Talk about final plans for the transitioning the one stop webpage from virtual to remote as well as
@@ -125,41 +128,45 @@
             </ol>
         </section> <br>
 
-        <h2> Unfinished Business </h2>
-        <hr>
         <section> <a name="oldinfo"></a>
-            <p> Since campus is now transitoning more into in person, we are going to adjust the vocabulary on our pages
-                by removing most of the virtual keywords and replacing it with in person options. There will still be
-                virtual advising hours if needed, but for now everything will be in person unless otherwise stated. </p>
-            <p> The new drop in hours will now be 9 am - 1 pm on Mondays and Wednesdays, then 11 am to 4 pm on Tuesdays
-                and Thursdays. Fridays will be from 2-5 pm. Shifts are all updated on the new fall quarter doc which
-                will need to be added to the tockify calendar and updated accordingly.</p>
+            <h2> Unfinished Business </h2>
+        <hr>
+            <ul>
+                <li> Since campus is now transitoning more into in person, we are going to adjust the vocabulary on our pages
+                    by removing most of the virtual keywords and replacing it with in person options. </li>
+                <li>There will still be virtual advising hours if needed, but for now everything will be in person unless otherwise stated. </li>
+                <li> The new drop in hours will now be 9 am - 1 pm on Mondays and Wednesdays, then 11 am to 4 pm on Tuesdays
+                    and Thursdays. Fridays will be from 2-5 pm. </li>
+                <li> Shifts are all updated on the new fall quarter doc which will need to be added to the tockify calendar and updated accordingly.</li>
+            </ul>
         </section> <br>
 
-        <h2> New Information/Business </h2>
-        <hr>
         <section> <a name="newinfo"></a>
-            <p> Welcome our two new members: Zendaya and Lalisa!</p>
-            <p> Surplus of finances means that we get to update our tockify calendar from member to premium. This means
-                a lot more benefits for not only the visuals of our calendar but for better access to a diverse pool of
-                users.</p>
-            <p> Global Health project: pick up two student workers to flyer around campus and ask questions for global
-                health day. We can advertise this by putting this on our website via the news module and through our
-                social media accounts.</p>
-            <p> We now have an instagram account!</p>
-            <p> We can also start on a couple sponsorships and reach out to influencers.</p>
+            <h2> New Information/Business </h2>
+        <hr>
+            <ul>
+                <li> Welcome our two new members: Zendaya and Lalisa!</li>
+                <li> Surplus of finances means that we get to update our tockify calendar from member to premium. This means
+                    a lot more benefits for not only the visuals of our calendar but for better access to a diverse pool of
+                    users.</li>
+                <li> Global Health project: pick up two student workers to flyer around campus and ask questions for global
+                    health day. We can advertise this by putting this on our website via the news module and through our
+                    social media accounts.</li>
+                <li> We now have an instagram account!</li>
+                <li> We can also start on a couple sponsorships and reach out to influencers.</li>
+            </ul>
         </section> <br>
 
         <h2> Pictures and Diagrams </h2>
         <hr>
-        <section> <a name="pictures"></a>
-            <img src="whiteboard.jpg" width="300" height="300" alt="whiteboard" />
-            <img src="sponsorship.jpg" width="300" height="300" alt="sponsorship" />
+        <section class="container2"> <a name="pictures"></a>
+            <img id="box-a" src="whiteboard.jpg" width="300" height="300" alt="whiteboard" />
+            <img id="box-b" src="sponsorship.jpg" width="300" height="300" alt="sponsorship" />
         </section> <br>
 
-        <h2> Questions, Comments, Concerns </h2>
-        <hr>
         <section> <a name="comments"></a>
+            <h2> Questions, Comments, Concerns </h2>
+        <hr>
             <ul>
                 <li> Hybridization of in person and virtual events</li>
                 <li> Housing for students </li>
@@ -170,32 +177,35 @@
             </ul>
         </section> <br>
 
-        <h2> Audio and Video Recordings </h2>
-        <hr>
         <section> <a name="recordings"></a>
-
-            <h3> Audio Recordings </h3>
-            <audio controls>
+            <h2> Audio and Video Recordings </h2>
+        <hr>
+            <audio class="center" controls>
                 <source src="labaudio.wav" type="audio/wav">
                 your browser does not support the audio attribute
             </audio>
-            <h3> Video Recordings</h3>
-            <video width="300" height="400" autoplay="autoplay">
+            <br>
+            <video class="center" width="300" height="400" autoplay="autoplay">
                 <source src="lab4video.mp4" type="video/mp4">
                 your browser doesn't support the video attribute
             </video>
 
         </section> <br>
+    </section>
 
-        <div>
-            <span> </span>
-        </div>
     </main>
 
     <footer>
+        <div>
+            <span> </span>
+        </div>
         <details>
-            <summary> Details </summary>
+            <summary style="color: purple;"> Details </summary>
             These meetings notes will be uploaded by the end of today at 9 pm.
+        </details>
+        <details>
+            <summary style="color: red;"> Even More Details </summary>
+            These meeting notes will also be emailed.
         </details>
     </footer>
 </body>
